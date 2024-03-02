@@ -1,3 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
 .App {
   font-family: sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 30px;
+}
+
+.pokemon {
+width: 30%;
+padding: 30px;
+margin: 10px;
+background-color: azure;
+}
+
+.weakness,
+.type {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  background-color: aquamarine;
 }
